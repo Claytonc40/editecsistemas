@@ -1,4 +1,4 @@
-import { Separator } from '@/components/ui/separator';
+import { Separator } from "@/components/ui/separator";
 import { Mail, MapPin, Phone } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -21,15 +21,15 @@ export const FooterSection = () => {
             <div className="space-y-4 text-muted-foreground">
               <div className="flex items-center gap-3">
                 <MapPin className="h-5 w-5 text-primary" />
-                <p className="text-sm">Rua Exemplo, 123 - Cidade, Estado</p>
+                <p className="text-sm">Minas Gerais - MG</p>
               </div>
               <div className="flex items-center gap-3">
                 <Phone className="h-5 w-5 text-primary" />
-                <p className="text-sm">+55 (11) 9999-9999</p>
+                <p className="text-sm">+55 (34) 99636-7821</p>
               </div>
               <div className="flex items-center gap-3">
                 <Mail className="h-5 w-5 text-primary" />
-                <p className="text-sm">contato@editec.com.br</p>
+                <p className="text-sm">contato@editecsistema.com.br</p>
               </div>
             </div>
           </div>
