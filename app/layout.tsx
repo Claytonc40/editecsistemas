@@ -1,15 +1,14 @@
 import { Navbar } from "@/components/layout/navbar";
 import { ThemeProvider } from "@/components/layout/theme-provider";
+import { WhatsAppButton } from "@/components/layout/whatsapp-button";
 import { Toaster } from "@/components/ui/sonner";
 import { cn } from "@/lib/utils";
-import emailjs from "@emailjs/browser";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
-emailjs.init(process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!);
 
 export const metadata: Metadata = {
   title: "Editec Sistemas Desenvolvimento",
@@ -32,6 +31,7 @@ export default function RootLayout({
         >
           <Navbar />
           <Toaster />
+          <WhatsAppButton />
 
           {children}
         </ThemeProvider>
