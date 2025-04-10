@@ -11,14 +11,6 @@ interface sponsorsProps {
 
 const sponsors: sponsorsProps[] = [
   {
-    icon: "Crown",
-    name: "U4Hero",
-  },
-  {
-    icon: "Vegan",
-    name: "SZV Certificações",
-  },
-  {
     icon: "Ghost",
     name: "Conecta Atende",
   },
@@ -26,18 +18,6 @@ const sponsors: sponsorsProps[] = [
     icon: "Calendar",
     name: "Save Date",
   },
-  // {
-  //   icon: 'Squirrel',
-  //   name: 'Acme',
-  // },
-  // {
-  //   icon: 'Cookie',
-  //   name: 'Accmee',
-  // },
-  // {
-  //   icon: 'Drama',
-  //   name: 'Acmetech',
-  // },
 ];
 
 export const SponsorsSection = () => {

@@ -27,23 +27,6 @@ interface ReviewProps {
 const reviewList: ReviewProps[] = [
   {
     image: "https://github.com/shadcn.png",
-    name: "Alysson Sanches",
-    userName: "Fundador da U4hero",
-    comment:
-      "Trabalhar com a Editec Sistemas foi uma experiência incrível. Eles entenderam perfeitamente nossas necessidades e criaram uma plataforma que transformou a forma como os alunos desenvolvem habilidades emocionais e sociais. O resultado foi muito além do que esperávamos, com um sistema intuitivo e altamente funcional.",
-    rating: 5.0,
-  },
-  {
-    image: "https://github.com/shadcn.png",
-    name: "Marcia Rocha",
-    userName: "CEO da SZV Certificações",
-    comment:
-      "A equipe da Editec Sistemas superou todas as expectativas no desenvolvimento do nosso sistema de certificação digital. Eles trouxeram inovação e eficiência para nossa operação, permitindo que nos destacássemos no mercado de sustentabilidade. Recomendo fortemente para qualquer empresa que busca soluções tecnológicas personalizadas.",
-    rating: 4.8,
-  },
-
-  {
-    image: "https://github.com/shadcn.png",
     name: "Clayton Aguiar",
     userName: "Idealizador do Conecta Atende",
     comment:
